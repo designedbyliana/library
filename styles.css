@@ -1577,3 +1577,29 @@ button {
   margin-left:8px;
   border-radius:50%
 }
+
+
+/* Readability improvements and social brand marks */
+.main-nav { font-size:13px; }
+.header-cta,.button,.text-link { font-size:12px; }
+.eyebrow,.section-label { font-size:11px; }
+.hero-note { font-size:10px; }
+.template-topline,.template-meta { font-size:9px; }
+.download-button { font-size:11px; }
+.step-card p,.faq-list details p,.author-content p { font-size:12px; }
+.social-link b { font-size:11px; }
+.social-link small { font-size:10px; }
+.social-icon { width:40px; height:40px; flex-basis:40px; border-radius:13px; }
+.social-icon svg { width:21px; height:21px; display:block; fill:currentColor; }
+.social-telegram .social-icon { color:#229ED9; background:#e4f5fc; }
+.social-youtube .social-icon { color:#e62117; background:#ffebeb; }
+.social-tiktok .social-icon { color:#171717; background:#f1e5eb; }
+.social-vk .social-icon { color:#0077ff; background:#e8f2ff; }
+.footer-notes { display:flex; flex-direction:column; gap:5px; text-align:center; }
+.footer-notes small { font:9px var(--mono); letter-spacing:.04em; color:#a66b80; }
+@media(max-width:700px) {
+  .main-nav { font-size:14px; }
+  .site-footer { row-gap:12px; }
+  .footer-notes { order:3; width:100%; }
+  .site-footer>span { order:initial; width:auto; }
+}
