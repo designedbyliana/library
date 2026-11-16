@@ -1603,3 +1603,134 @@ button {
   .footer-notes { order:3; width:100%; }
   .site-footer>span { order:initial; width:auto; }
 }
+
+
+/* Custom hand-drawn sparkle mark */
+.spark-mark {
+  display:inline-block;
+  flex:0 0 auto;
+  width:1em;
+  height:1em;
+  background:currentColor;
+  -webkit-mask:url('assets/sparkle.svg') center / contain no-repeat;
+  mask:url('assets/sparkle.svg') center / contain no-repeat;
+}
+.title-star {
+  width:.34em;
+  height:.34em;
+  margin-left:12px;
+  vertical-align:top;
+  color:var(--wine);
+  animation:spin 14s linear infinite;
+}
+.title-star .spark-mark { width:100%; height:100%; }
+.sticker-star .spark-mark { width:38px; height:38px; }
+.marquee-track b.spark-mark {
+  width:15px;
+  height:15px;
+  font-size:15px;
+}
+.icon-edit .spark-mark { width:30px; height:30px; }
+.final-spark.spark-mark { display:block; }
+
+/* Mobile hero artwork layout correction */
+@media(max-width:700px) {
+  .hero { overflow:hidden; }
+  .hero-art {
+    width:100%;
+    min-height:350px;
+    margin-top:22px;
+    overflow:visible;
+  }
+  .hero-glass {
+    width:min(340px,94%);
+    height:315px;
+    padding:15px;
+    border-radius:20px;
+    transform:rotate(1.5deg);
+    animation:float-mobile 8s ease-in-out infinite;
+  }
+  .hero-slide-main {
+    left:20px;
+    top:55px;
+    width:61%;
+    height:205px;
+    padding:16px;
+  }
+  .slide-big {
+    font-size:clamp(39px,11vw,48px);
+    margin-top:28px;
+  }
+  .slide-bottom {
+    left:16px;
+    right:16px;
+    bottom:13px;
+    gap:7px;
+    font-size:6px;
+  }
+  .mini-one {
+    right:8px;
+    top:103px;
+    width:116px;
+    height:104px;
+    padding:12px;
+    transform:rotate(5deg);
+  }
+  .mini-one b { font-size:21px; margin-top:11px; }
+  .mini-two {
+    left:20px;
+    bottom:10px;
+    width:118px;
+    height:100px;
+    padding:12px;
+    transform:rotate(-4deg);
+  }
+  .mini-shape {
+    width:36px;
+    height:36px;
+    right:14px;
+    top:24px;
+  }
+  .sticker-star {
+    width:48px;
+    height:48px;
+    right:0;
+    top:16px;
+    font-size:24px;
+  }
+  .sticker-star .spark-mark { width:30px; height:30px; }
+  .sticker-type {
+    width:54px;
+    height:54px;
+    left:0;
+    top:205px;
+    font-size:10px;
+  }
+  .sticker-type b { font-size:16px; }
+  .orbit {
+    width:min(310px,100%);
+    height:175px;
+  }
+  .orbit-b {
+    width:min(290px,95%);
+    height:230px;
+  }
+  .hero-caption {
+    right:4%;
+    bottom:-3px;
+    gap:10px;
+    font-size:7px;
+  }
+}
+@keyframes float-mobile {
+  0%,100% { transform:rotate(1.5deg) translateY(0); }
+  50% { transform:rotate(.5deg) translateY(-7px); }
+}
+@media(max-width:380px) {
+  .hero-art { min-height:325px; }
+  .hero-glass { width:96%; height:295px; }
+  .hero-slide-main { left:15px; width:60%; }
+  .mini-one { right:5px; width:108px; }
+  .mini-two { left:15px; width:110px; }
+  .sticker-type { left:-2px; }
+}
