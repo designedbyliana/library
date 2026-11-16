@@ -1737,3 +1737,114 @@ button {
   .mini-two { left:15px; width:110px; }
   .sticker-type { left:-2px; }
 }
+
+
+/* Final typography and compact layout refinements */
+.title-star {
+  width:.58em;
+  height:.58em;
+  margin-left:.16em;
+  vertical-align:top;
+  transform:translateY(-.08em);
+  color:var(--wine);
+  opacity:1;
+}
+.title-star .spark-mark {
+  width:100%;
+  height:100%;
+}
+.button-primary {
+  font-size:14px;
+  padding:18px 25px;
+}
+.feature-pills span {
+  font-size:10px;
+  padding:11px 15px;
+}
+.step-card {
+  min-height:220px;
+  padding:22px;
+}
+.step-icon {
+  width:54px;
+  height:54px;
+  margin:17px 0 14px;
+}
+.icon-download span { font-size:27px; }
+.icon-edit .spark-mark { width:25px; height:25px; }
+.step-card h3 {
+  font-size:27px;
+  margin-bottom:6px;
+}
+.step-card p {
+  font-size:11px;
+  line-height:1.65;
+}
+.faq-list summary {
+  font-size:14px;
+}
+.faq-list details p {
+  font-size:13px;
+  line-height:1.8;
+}
+@media(max-width:700px) {
+  .title-star {
+    width:.56em;
+    height:.56em;
+    margin-left:.12em;
+    transform:translateY(-.06em);
+  }
+  .button-primary {
+    font-size:14px;
+    padding:17px 22px;
+  }
+  .feature-pills {
+    gap:7px;
+    margin-top:20px;
+  }
+  .feature-pills span {
+    font-size:10px;
+    padding:10px 12px;
+  }
+  .steps-grid {
+    gap:9px;
+    margin-top:25px;
+  }
+  .step-card {
+    min-height:0;
+    padding:17px 19px;
+    border-radius:15px;
+  }
+  .step-icon {
+    width:46px;
+    height:46px;
+    margin:12px 0 10px;
+  }
+  .icon-select span:nth-child(2) {
+    width:16px;
+    height:16px;
+  }
+  .icon-download span { font-size:23px; }
+  .icon-edit .spark-mark { width:22px; height:22px; }
+  .step-card h3 {
+    font-size:25px;
+    margin-bottom:5px;
+  }
+  .step-card p {
+    font-size:11px;
+    line-height:1.6;
+    max-width:100%;
+    margin:0;
+  }
+  .step-arrow {
+    right:18px;
+    top:17px;
+  }
+  .faq-list summary {
+    font-size:14px;
+    line-height:1.5;
+  }
+  .faq-list details p {
+    font-size:13px;
+  }
+}
