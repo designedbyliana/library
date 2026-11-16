@@ -310,12 +310,15 @@ button {
   overflow:hidden
 }
 .hero-slide-main:after {
-  content:'✳';
+  content:'';
   position:absolute;
-  font-size:150px;
+  width:150px;
+  height:150px;
   right:-15px;
   bottom:-62px;
-  color:#ffffff14
+  background:#ffffff14;
+  -webkit-mask:url('assets/sparkle.svg') center / contain no-repeat;
+  mask:url('assets/sparkle.svg') center / contain no-repeat;
 }
 .slide-kicker {
   font:8px var(--mono);
