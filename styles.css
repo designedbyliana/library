@@ -1871,3 +1871,13 @@ button {
     margin-left:.1em;
   }
 }
+
+/* Keep the mobile hero background full-bleed while preserving its content gutters */
+@media(max-width:700px) {
+  .hero.section-shell {
+    width:100%;
+    max-width:none;
+    margin-inline:0;
+    padding-inline:18px;
+  }
+}
