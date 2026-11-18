@@ -2198,3 +2198,10 @@ button {
     font-size:15px;
   }
 }
+
+
+/* Keep button dimensions unchanged while enlarging only the labels */
+.download-button,
+.final-content .button {
+  line-height:1;
+}
