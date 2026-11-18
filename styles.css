@@ -1882,14 +1882,18 @@ button {
   }
 }
 
-/* Use TAN Meringue for the Latin project name, with a smaller author heading */
+/* Keep TAN Meringue for the project wordmark; restore the previous heading typeface */
 .brand-name,
 .footer-brand,
 .hero-bottom span:last-child,
-.visual-meta span:first-child,
-.author-content h2 {
+.visual-meta span:first-child {
   font-family:'TAN Meringue','Bodoni MT',Didot,Georgia,serif;
   font-weight:400;
+}
+.section-title,
+.author-content h2,
+.author-content h2 em {
+  font-family:'Bodoni MT',Didot,Georgia,serif;
 }
 .author-content h2 {
   font-size:36px;
