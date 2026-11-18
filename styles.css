@@ -538,18 +538,12 @@ button {
 .marquee-track {
   display:flex;
   align-items:center;
-  width:max-content;
+  justify-content:space-around;
+  gap:45px;
+  min-width:max-content;
   animation:marquee 24s linear infinite;
-  will-change:transform;
   font:12px var(--mono);
   letter-spacing:.18em
-}
-.marquee-group {
-  display:flex;
-  flex:0 0 auto;
-  align-items:center;
-  gap:45px;
-  padding-right:45px;
 }
 .marquee-track b {
   font-size:19px;
@@ -1265,7 +1259,7 @@ button {
 }
 @keyframes marquee {
   to {
-    transform:translateX(-50%)
+    transform:translateX(-30%)
   }
 }
 @keyframes fadeUp {
