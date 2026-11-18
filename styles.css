@@ -2144,3 +2144,23 @@ button {
     height:16px;
   }
 }
+
+/* Keep the em dash attached to the final word on its own centered line */
+.hero-last-line {
+  display:inline-block;
+  white-space:nowrap;
+}
+/* Move the decorative sparkle away from the final callout headline */
+.spark-a {
+  left:6%;
+  top:9%;
+}
+@media(max-width:700px) {
+  .hero-last-line {
+    display:inline-block;
+  }
+  .spark-a {
+    left:5%;
+    top:7%;
+  }
+}
