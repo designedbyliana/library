@@ -1906,3 +1906,80 @@ button {
     font-size:31px;
   }
 }
+
+
+/* Mobile hero: keep the preview typography inside each floating card */
+@media(max-width:700px) {
+  .hero-bottom {
+    display:none;
+  }
+  .hero-slide-main {
+    left:17px;
+    top:55px;
+    width:63%;
+    height:205px;
+    padding:15px;
+  }
+  .slide-big {
+    font-size:clamp(34px,9.2vw,40px);
+    line-height:.82;
+    margin-top:23px;
+    letter-spacing:-.055em;
+  }
+  .slide-bottom {
+    left:14px;
+    right:14px;
+    bottom:11px;
+    gap:5px;
+    font-size:5px;
+  }
+  .mini-one {
+    right:8px;
+    top:103px;
+    width:112px;
+    height:104px;
+    padding:11px;
+  }
+  .mini-one b {
+    font-size:19px;
+    line-height:.88;
+    margin-top:10px;
+    letter-spacing:-.04em;
+  }
+  .mini-one small {
+    left:11px;
+    bottom:8px;
+    font-size:5px;
+  }
+  .mini-two {
+    left:18px;
+    width:114px;
+    height:100px;
+    padding:11px;
+  }
+  .mini-two small {
+    left:11px;
+    bottom:8px;
+    font-size:5px;
+  }
+}
+@media(max-width:380px) {
+  .hero-slide-main {
+    left:14px;
+    width:61%;
+  }
+  .slide-big {
+    font-size:34px;
+  }
+  .mini-one {
+    width:105px;
+    right:5px;
+  }
+  .mini-one b {
+    font-size:18px;
+  }
+  .mini-two {
+    left:14px;
+    width:108px;
+  }
+}
