@@ -2034,3 +2034,49 @@ button {
 @media(max-width:700px) {
   .intro.section-pad { padding-top:48px; }
 }
+
+/* Spacing refinement: separate card copy from its download action and tighten section rhythm */
+.template-info .download-button {
+  margin-top:22px;
+}
+.template-info .template-meta {
+  margin-top:18px;
+}
+.intro.section-pad {
+  padding-top:56px;
+  padding-bottom:82px;
+}
+.templates-section.section-pad,
+.how-section.section-pad,
+.faq-section.section-pad,
+.social-section.section-pad {
+  padding-top:82px;
+  padding-bottom:82px;
+}
+.author-section.section-pad {
+  padding-top:52px;
+  padding-bottom:82px;
+}
+@media(max-width:700px) {
+  .hero {
+    padding-bottom:42px;
+  }
+  .intro.section-pad {
+    padding-top:34px;
+    padding-bottom:48px;
+  }
+  .templates-section.section-pad,
+  .how-section.section-pad,
+  .faq-section.section-pad,
+  .social-section.section-pad {
+    padding-top:48px;
+    padding-bottom:48px;
+  }
+  .author-section.section-pad {
+    padding-top:28px;
+    padding-bottom:48px;
+  }
+  .template-info .download-button {
+    margin-top:20px;
+  }
+}
