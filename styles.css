@@ -2027,3 +2027,10 @@ button {
     font-size:15px;
   }
 }
+
+
+/* Bring section 01 a little closer to the hero */
+.intro.section-pad { padding-top:64px; }
+@media(max-width:700px) {
+  .intro.section-pad { padding-top:48px; }
+}
