@@ -1881,3 +1881,13 @@ button {
     padding-inline:18px;
   }
 }
+
+/* Use TAN Meringue only for the Latin project name */
+.brand-name,
+.footer-brand,
+.hero-bottom span:last-child,
+.visual-meta span:first-child,
+.author-content h2 em {
+  font-family:'TAN Meringue','Bodoni MT',Didot,Georgia,serif;
+  font-weight:400;
+}
