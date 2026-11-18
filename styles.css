@@ -1996,3 +1996,33 @@ button {
     padding:14px 19px;
   }
 }
+
+
+/* Template cards: align download actions at the bottom of every card */
+.template-card {
+  display:flex;
+  flex-direction:column;
+}
+.template-info {
+  display:flex;
+  flex:1;
+  flex-direction:column;
+}
+.template-info p {
+  flex:1;
+}
+.download-button {
+  margin-top:auto;
+}
+
+/* Smaller carousel arrows on mobile */
+@media(max-width:700px) {
+  .carousel-controls {
+    gap:8px;
+  }
+  .circle-button {
+    width:38px;
+    height:38px;
+    font-size:15px;
+  }
+}
