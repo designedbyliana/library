@@ -2200,8 +2200,10 @@ button {
 }
 
 
-/* Keep button dimensions unchanged while enlarging only the labels */
-.download-button,
+/* Keep the original button footprint while enlarging only the labels */
+.download-button {
+  line-height:13px;
+}
 .final-content .button {
-  line-height:1;
+  line-height:13px;
 }
