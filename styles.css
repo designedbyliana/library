@@ -1758,8 +1758,8 @@ button {
   padding:18px 25px;
 }
 .feature-pills span {
-  font-size:10px;
-  padding:11px 15px;
+  font-size:12px;
+  padding:14px 19px;
 }
 .step-card {
   min-height:220px;
@@ -1981,5 +1981,18 @@ button {
   .mini-two {
     left:14px;
     width:108px;
+  }
+}
+
+
+/* Desktop feature pills: improve scale and readability */
+@media(min-width:701px) {
+  .feature-pills {
+    gap:10px;
+    margin-top:28px;
+  }
+  .feature-pills span {
+    font-size:12px;
+    padding:14px 19px;
   }
 }
