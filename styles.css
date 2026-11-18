@@ -367,7 +367,7 @@ button {
 }
 .mini-one b {
   display:block;
-  font:24px/1 var(--heading);
+  font:22px/1.22 var(--heading);
   margin-top:14px
 }
 .mini-one small,.mini-two small {
@@ -1686,7 +1686,7 @@ button {
     padding:12px;
     transform:rotate(5deg);
   }
-  .mini-one b { font-size:21px; margin-top:11px; }
+  .mini-one b { font-size:18px; line-height:1.22; margin-top:11px; }
   .mini-two {
     left:20px;
     bottom:10px;
@@ -1948,8 +1948,8 @@ button {
     padding:11px;
   }
   .mini-one b {
-    font-size:19px;
-    line-height:.88;
+    font-size:17px;
+    line-height:1.22;
     margin-top:10px;
     letter-spacing:-.04em;
   }
@@ -1983,7 +1983,8 @@ button {
     right:5px;
   }
   .mini-one b {
-    font-size:18px;
+    font-size:16px;
+    line-height:1.22;
   }
   .mini-two {
     left:14px;
