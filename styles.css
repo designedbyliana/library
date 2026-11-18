@@ -2160,3 +2160,12 @@ button {
     top:7%;
   }
 }
+
+
+/* Hero artwork typography spacing refinement */
+.hero-slide-main .slide-big {
+  line-height:1.02;
+}
+.hero-glass .sticker-type {
+  line-height:.88;
+}
