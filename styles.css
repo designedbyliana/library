@@ -2145,10 +2145,24 @@ button {
   }
 }
 
-/* Keep the em dash attached to the final word on its own centered line */
+/* Keep the dash visually aligned with the word on the final hero-title line */
 .hero-last-line {
-  display:inline-block;
+  display:block;
+  position:relative;
+  width:max-content;
+  max-width:100%;
   white-space:nowrap;
+  margin-inline:auto;
+}
+.hero-last-line::before {
+  content:"";
+  position:absolute;
+  width:.72em;
+  height:.045em;
+  min-height:2px;
+  background:currentColor;
+  left:-.92em;
+  top:.59em;
 }
 /* Move the decorative sparkle away from the final callout headline */
 .spark-a {
