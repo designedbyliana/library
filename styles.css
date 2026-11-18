@@ -18,7 +18,7 @@
 }
 @font-face {
   font-family:'TAN Meringue';
-  src:url('assets/TAN-Meringue.woff2') format('woff2');
+  src:url('assets/TAN-Meringue.woff2?v=2') format('woff2');
   font-display:swap
 }
 * {
