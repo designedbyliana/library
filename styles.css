@@ -1882,12 +1882,23 @@ button {
   }
 }
 
-/* Use TAN Meringue only for the Latin project name */
+/* Use TAN Meringue for the Latin project name, with a smaller author heading */
 .brand-name,
 .footer-brand,
 .hero-bottom span:last-child,
 .visual-meta span:first-child,
-.author-content h2 em {
+.author-content h2 {
   font-family:'TAN Meringue','Bodoni MT',Didot,Georgia,serif;
   font-weight:400;
+}
+.author-content h2 {
+  font-size:36px;
+}
+.author-decoration {
+  font-family:'Bodoni MT',Didot,Georgia,serif;
+}
+@media(max-width:700px) {
+  .author-content h2 {
+    font-size:31px;
+  }
 }
