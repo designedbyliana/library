@@ -2238,7 +2238,11 @@ button {
     bottom:7%;
   }
   .template-meta {
-    justify-content:flex-end;
+    justify-content:space-between;
+    gap:14px;
+  }
+  .template-meta span {
+    white-space:nowrap;
   }
 }
 
