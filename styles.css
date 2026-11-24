@@ -2207,3 +2207,19 @@ button {
 .final-content .button {
   line-height:13px;
 }
+
+
+/* First collection card: show the supplied brand deck preview cleanly */
+.template-visual.visual-brand {
+  padding:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f7f7f7;
+}
+.template-preview-image {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
