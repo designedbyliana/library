@@ -2217,6 +2217,12 @@ button {
   justify-content:center;
   background:#f7f7f7;
 }
+.template-visual.visual-brand .template-preview-image {
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+}
 .template-preview-image {
   display:block;
   width:100%;
