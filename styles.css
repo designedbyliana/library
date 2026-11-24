@@ -2241,3 +2241,12 @@ button {
     justify-content:flex-end;
   }
 }
+
+
+/* Mobile brand-template preview: portrait 3:4 frame, artwork fully contained */
+@media(max-width:700px) {
+  .template-visual.visual-brand {
+    height:auto;
+    aspect-ratio:3 / 4;
+  }
+}
