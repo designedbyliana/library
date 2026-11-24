@@ -2223,3 +2223,15 @@ button {
   height:100%;
   object-fit:contain;
 }
+
+
+/* Mobile final CTA: keep the decorative sparkle clear of the button */
+@media(max-width:700px) {
+  .final-spark.spark-b {
+    right:7%;
+    bottom:7%;
+  }
+  .template-meta {
+    justify-content:flex-end;
+  }
+}
