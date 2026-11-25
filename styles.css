@@ -2247,10 +2247,10 @@ button {
 }
 
 
-/* Mobile brand-template preview: portrait 3:4 frame, artwork fully contained */
+/* Mobile brand-template preview: landscape 4:3 frame, artwork fully contained */
 @media(max-width:700px) {
   .template-visual.visual-brand {
     height:auto;
-    aspect-ratio:3 / 4;
+    aspect-ratio:4 / 3;
   }
 }
