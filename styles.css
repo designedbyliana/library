@@ -2282,3 +2282,20 @@ button {
     margin-top:15px;
   }
 }
+
+
+/* Keep the slide-count row and download button together at the bottom of each card */
+.template-info .template-meta {
+  margin-top:auto;
+}
+.template-info .download-button {
+  margin-top:18px;
+}
+@media(max-width:700px) {
+  .template-info .template-meta {
+    margin-top:auto;
+  }
+  .template-info .download-button {
+    margin-top:15px;
+  }
+}
