@@ -2254,3 +2254,31 @@ button {
     aspect-ratio:4 / 3;
   }
 }
+
+
+/* Collection cards: compact mobile copy; landscape preview window at 4:3 */
+.template-visual.visual-brand {
+  height:auto;
+  aspect-ratio:4 / 3;
+}
+@media(max-width:700px) {
+  .template-info {
+    padding:17px 18px 19px;
+  }
+  .template-info h3 {
+    font-size:28px;
+    margin:12px 0 7px;
+  }
+  .template-info p {
+    flex:0 0 auto;
+    min-height:0;
+    line-height:1.6;
+  }
+  .template-info .template-meta {
+    margin-top:13px;
+    padding-top:12px;
+  }
+  .template-info .download-button {
+    margin-top:15px;
+  }
+}
